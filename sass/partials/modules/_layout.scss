@@ -1,0 +1,18 @@
+body {
+  background-color: $lighterGrey;
+}
+.page {
+  max-width: $maxWidth;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $lightGrey;
+}
+
+.color-white {
+  background-color: $white;
+  height: 50px;
+}
+.color-black {
+  background-color: #000;
+  height: 50px;
+}

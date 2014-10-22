@@ -1,3 +1,68 @@
+/* Responsive Breakpoints
+   ========================================================================== */
+/* Usage */
+/* line 19, ../sass/partials/global/_mixins.scss */
+.page-wrap {
+  width: 75%;
+}
+@media (min-width: 64.375em) {
+  /* line 19, ../sass/partials/global/_mixins.scss */
+  .page-wrap {
+    width: 60%;
+  }
+}
+@media (min-width: 50em) {
+  /* line 19, ../sass/partials/global/_mixins.scss */
+  .page-wrap {
+    width: 80%;
+  }
+}
+@media (min-width: 37.5em) {
+  /* line 19, ../sass/partials/global/_mixins.scss */
+  .page-wrap {
+    width: 95%;
+  }
+}
+
+/* Sub-section comment block
+   ========================================================================== */
+/* Usage */
+/* Clearfix
+  ========================================================================== */
+/* Usage */
+/* Box Model
+  ========================================================================== */
+/* Usage */
+/* Border Radius
+  ========================================================================== */
+/* Usage */
+/* Opacity
+  ========================================================================== */
+/* Usage */
+/* Center-align a block level element
+  ========================================================================== */
+/* Usage */
+/* Text overflow
+  ========================================================================== */
+/* Usage */
+/* Absolute positioned
+  ========================================================================== */
+/* Usage */
+/* Font Size
+  ========================================================================== */
+/* Usage */
+/* Cross browser inline block
+  ========================================================================== */
+/* Usage */
+/* Text replacement (instead of text-indent)
+  ========================================================================== */
+/* Usage */
+/* Line Height
+  ========================================================================== */
+/* Usage */
+/* Placeholder
+  ========================================================================== */
+/* Usage */
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,36 +132,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* line 6, ../sass/partials/modules/_grid.scss */
 .row {
-  max-width: 1280px;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-/* line 341, ../sass/partials/global/_mixins.scss */
-.row {
+  max-width: 100%;
+  overflow: hidden;
   *zoom: 1;
-}
-/* line 344, ../sass/partials/global/_mixins.scss */
-.row:before, .row:after {
-  content: "";
-  display: table;
-}
-/* line 349, ../sass/partials/global/_mixins.scss */
-.row:after {
-  clear: both;
+  margin: 0 auto 20px auto;
 }
 
 /* line 11, ../sass/partials/modules/_grid.scss */
 .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
   float: left;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -169,4 +222,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .col_12 {
   width: 100%;
   margin-left: 0;
+}
+
+/* line 1, ../sass/partials/modules/_typography.scss */
+body {
+  font-size: 1em;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* line 5, ../sass/partials/modules/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* line 9, ../sass/partials/modules/_typography.scss */
+h1 {
+  font-size: 1.7em;
+}
+
+/* line 12, ../sass/partials/modules/_typography.scss */
+h2 {
+  font-size: 1.4em;
+}
+
+/* line 15, ../sass/partials/modules/_typography.scss */
+h3 {
+  font-size: 1.1em;
+}
+
+/* line 18, ../sass/partials/modules/_typography.scss */
+p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* line 1, ../sass/partials/modules/_layout.scss */
+body {
+  background-color: #e6e6e6;
+}
+
+/* line 4, ../sass/partials/modules/_layout.scss */
+.page {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #bfbfbf;
+}
+
+/* line 11, ../sass/partials/modules/_layout.scss */
+.color-white {
+  background-color: white;
+  height: 50px;
+}
+
+/* line 15, ../sass/partials/modules/_layout.scss */
+.color-black {
+  background-color: #000;
+  height: 50px;
 }

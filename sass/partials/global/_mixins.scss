@@ -40,10 +40,10 @@
 
 /* Usage */
 
-div.logo {
-   background: url("logo.png") no-repeat;
-   @include image-2x("logo2x.png", 100px, 25px);
- }
+// div.logo {
+//    background: url("logo.png") no-repeat;
+//    @include image-2x("logo2x.png", 100px, 25px);
+//  }
 
 /* Clearfix
   ========================================================================== */
@@ -64,9 +64,9 @@ div.logo {
 
 /* Usage */
 
-.article {
-     @include clearfix();
-}
+// .article {
+//      @include clearfix();
+// }
 
 /* Box Model
   ========================================================================== */
@@ -79,11 +79,11 @@ div.logo {
 
 /* Usage */
 
-*,
-*:after,
-*:before {
-  @include box-sizing(border-box);
-}
+// *,
+// *:after,
+// *:before {
+//   @include box-sizing(border-box);
+// }
 
 /* Border Radius
   ========================================================================== */
@@ -127,13 +127,13 @@ div.logo {
 
 /* Usage */
 
-.button {
-  @include border-radius(5px);
-}
+// .button {
+//   @include border-radius(5px);
+// }
 
-.submit-button{
-  @include border-top-radius(10px);
-}
+// .submit-button{
+//   @include border-top-radius(10px);
+// }
 
 /* Opacity
   ========================================================================== */
@@ -146,9 +146,9 @@ div.logo {
 
 /* Usage */
 
-.article-heading {
-  @include opacity(0.8);
-}
+// .article-heading {
+//   @include opacity(0.8);
+// }
 
 
 /* Center-align a block level element
@@ -162,10 +162,10 @@ div.logo {
 
 /* Usage */
 
-.footer-wrap {
-  width: 450px;
-  @include center-block;
-}
+// .footer-wrap {
+//   width: 450px;
+//   @include center-block;
+// }
 
 /* Text overflow
   ========================================================================== */
@@ -178,9 +178,9 @@ div.logo {
 
 /* Usage */
 
-.text-truncate {
-  @include text-truncate;
-}
+// .text-truncate {
+//   @include text-truncate;
+// }
 
 /* Absolute positioned
   ========================================================================== */
@@ -195,9 +195,9 @@ div.logo {
 
 /* Usage */
 
-.abs {
-  @include abs-pos(10px, 10px, 5px, 15px);
-}
+// .abs {
+//   @include abs-pos(10px, 10px, 5px, 15px);
+// }
 
 /* Font Size
   ========================================================================== */
@@ -209,9 +209,9 @@ div.logo {
 
 /* Usage */
 
-body {
-  @include font-size(16);
-}
+// body {
+//   @include font-size(16);
+// }
 
 /* Cross browser inline block
   ========================================================================== */
@@ -226,9 +226,9 @@ body {
 
 /* Usage */
 
-.icon {
-  @include inline-block();
-}
+// .icon {
+//   @include inline-block();
+// }
 
 
 /* Text replacement (instead of text-indent)
@@ -243,9 +243,9 @@ body {
 
 /* Usage */
 
-.header h1 {
-  @include text-replacement();
-}
+// .header h1 {
+//   @include text-replacement();
+// }
 
 /* Line Height
   ========================================================================== */
@@ -257,9 +257,9 @@ body {
 
 /* Usage */
 
-body {
-  @include line-height (16);
-}
+// body {
+//   @include line-height (16);
+// }
 
 /* Placeholder
   ========================================================================== */
@@ -284,8 +284,8 @@ body {
 
 /* Usage */
 
-input{
-  @include placeholder-color(#FA4A4A)
-}
+// input{
+//   @include placeholder-color(#FA4A4A)
+// }
 
 
