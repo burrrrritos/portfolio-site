@@ -1,7 +1,15 @@
 // ---- ---- ---- ---- VARIABLES ---- ---- ---- ----
 
 // Width
-$maxWidth: 100%;
+$maxWidth: 1000px;
+
+// Borders 
+$borderColor: 1px solid #e5e5e5;
+
+// Media Query Breakpoints
+$width-small: 500px;
+$width-medium: 800px;
+$width-large: 1200px;
 
 // Site Colors
 $sqGrey: rgb(43, 57, 66);; //#2b3942

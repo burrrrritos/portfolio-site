@@ -139,7 +139,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 6, ../sass/partials/modules/_grid.scss */
 .row {
-  max-width: 100%;
+  max-width: 1000px;
+  max-width: 62.5rem;
   overflow: hidden;
   *zoom: 1;
   margin: 0 auto 20px auto;
@@ -234,24 +235,25 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
   font-weight: bold;
+  padding: 10px 0;
 }
 
-/* line 9, ../sass/partials/modules/_typography.scss */
+/* line 10, ../sass/partials/modules/_typography.scss */
 h1 {
   font-size: 1.7em;
 }
 
-/* line 12, ../sass/partials/modules/_typography.scss */
+/* line 13, ../sass/partials/modules/_typography.scss */
 h2 {
   font-size: 1.4em;
 }
 
-/* line 15, ../sass/partials/modules/_typography.scss */
+/* line 16, ../sass/partials/modules/_typography.scss */
 h3 {
   font-size: 1.1em;
 }
 
-/* line 18, ../sass/partials/modules/_typography.scss */
+/* line 19, ../sass/partials/modules/_typography.scss */
 p {
   font-size: 1em;
   margin-bottom: 15px;
@@ -264,20 +266,65 @@ body {
 
 /* line 4, ../sass/partials/modules/_layout.scss */
 .page {
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #bfbfbf;
-}
-
-/* line 11, ../sass/partials/modules/_layout.scss */
-.color-white {
+  margin: 25px;
+  padding: 0 25px;
   background-color: white;
-  height: 50px;
+  height: 900px;
+  box-shadow: 0px 0px 5px #a2a2a2;
+  -webkit-box-shadow: 0px 0px 5px #a2a2a2;
+  -moz-box-shadow: 0px 0px 5px #a2a2a2;
 }
 
-/* line 15, ../sass/partials/modules/_layout.scss */
-.color-black {
-  background-color: #000;
-  height: 50px;
+/* line 41, ../sass/partials/modules/_layout.scss */
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 35px 20px;
+  position: relative;
+  height: 100%;
+}
+
+/* line 48, ../sass/partials/modules/_layout.scss */
+.side-bar {
+  width: 300px;
+  display: block;
+  float: left;
+  height: 100%;
+  padding: 0 15px 0 0;
+}
+/* line 54, ../sass/partials/modules/_layout.scss */
+.side-bar ul {
+  margin-bottom: 25px;
+}
+/* line 57, ../sass/partials/modules/_layout.scss */
+.side-bar li {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+/* line 61, ../sass/partials/modules/_layout.scss */
+.side-bar li:first-child {
+  border-top: 1px solid #e5e5e5;
+}
+
+/* line 65, ../sass/partials/modules/_layout.scss */
+.content {
+  margin-left: 339px;
+  height: 100%;
+}
+/* line 68, ../sass/partials/modules/_layout.scss */
+.content ul {
+  list-style-type: none;
+  padding-top: 10px;
+}
+/* line 72, ../sass/partials/modules/_layout.scss */
+.content li {
+  display: inline-block;
+  float: left;
+  width: 32.3%;
+  margin-left: 1%;
+  margin-bottom: 0.7%;
+}
+/* line 79, ../sass/partials/modules/_layout.scss */
+.content img {
+  max-width: 100%;
 }
